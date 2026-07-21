@@ -1,0 +1,23 @@
+{
+  "name": "@estudioblanco/cernunnos",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "pnpm preview",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit",
+    "preview": "pnpm build && wrangler pages dev out",
+    "deploy": "pnpm build && wrangler pages deploy out"
+  },
+  "dependencies": {
+    "next": "^15.5.20",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@estudioblanco/eslint-config": "workspace:*",
+    "@estudioblanco/typescript-config": "workspace:*"
+  }
+}
