@@ -74,6 +74,7 @@ docs/product/       # Product boundaries, scope, and requirements
 docs/brand/         # Brand direction and identity notes
 docs/research/      # Research inputs and source material
 docs/architecture/  # Technical architecture notes and decisions
+docs/principles/   # Product, research, design, and engineering principles
 ```
 
 ## Development Principles

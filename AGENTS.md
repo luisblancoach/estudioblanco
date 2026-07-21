@@ -19,6 +19,15 @@
 - Architecture notes and decisions belong under `docs/architecture/`.
 - Do not introduce framework, deployment, or data-layer decisions without approval.
 
+## Repository Language
+
+- System Knowledge is written in English.
+- Domain Knowledge remains in its original language whenever possible.
+- System Knowledge includes engineering-facing documentation such as `README.md`, `AGENTS.md`, `CLAUDE.md`, ADRs, architecture documentation, engineering documentation, product principles, design principles, research principles, technical specifications, code comments, commit messages, pull requests, and issues.
+- Domain Knowledge includes user interviews, survey responses, research findings, business strategy, market analysis, product vision, brand strategy, and Argentine agriculture domain knowledge.
+- Do not translate Domain Knowledge only to make the repository uniformly English.
+- When a document mixes System Knowledge and Domain Knowledge, write the system framing in English and preserve domain source material in its original language.
+
 ## Coding Standards
 
 - Use TypeScript for source code.
