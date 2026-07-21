@@ -6,9 +6,13 @@ export const baseConfig = tseslint.config(
     ignores: [
       "**/.next/**",
       "**/dist/**",
+      "**/out/**",
+      "**/.turbo/**",
+      "**/.wrangler/**",
       "**/node_modules/**",
       "**/coverage/**",
       "**/pnpm-lock.yaml",
+      "**/next-env.d.ts",
     ],
   },
   js.configs.recommended,

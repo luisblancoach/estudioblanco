@@ -1,5 +1,17 @@
+import nextPlugin from "@next/eslint-plugin-next";
 import { baseConfig } from "./base.mjs";
 
-// Extend this config inside a concrete Next.js app once its Next version is chosen.
-// The base config remains framework-safe and can be composed with app-specific rules.
-export default baseConfig;
+export const nextConfig = [
+  ...baseConfig,
+  {
+    plugins: {
+      "@next/next": nextPlugin,
+    },
+    rules: {
+      ...nextPlugin.configs.recommended.rules,
+      ...nextPlugin.configs["core-web-vitals"].rules,
+    },
+  },
+];
+
+export default nextConfig;

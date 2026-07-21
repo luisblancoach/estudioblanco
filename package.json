@@ -25,6 +25,10 @@
     "prettier": "^3.4.2",
     "turbo": "^2.3.3",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.20.0"
+    "typescript-eslint": "^8.20.0",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "wrangler": "^4.24.3",
+    "@next/eslint-plugin-next": "^15.5.20"
   }
 }
