@@ -15,7 +15,9 @@
     "lint": "eslint .",
     "lint:workspaces": "turbo lint",
     "typecheck": "turbo typecheck",
-    "clean": "turbo clean"
+    "clean": "turbo clean",
+    "cf:build:estudioblanco": "corepack enable && corepack prepare pnpm@11.9.0 --activate && pnpm install --frozen-lockfile && pnpm --filter @estudioblanco/app build",
+    "cf:build:cernunnos": "corepack enable && corepack prepare pnpm@11.9.0 --activate && pnpm install --frozen-lockfile && pnpm --filter @estudioblanco/cernunnos build"
   },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
